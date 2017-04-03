@@ -4,6 +4,9 @@ body{
 }
 header{
   height: 600px;
+  background-image: url("../src/img/header.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
   background-color: #2c2c2c;
   color: #ffffff;
@@ -22,10 +25,15 @@ header{
 
   }
 }
+.menu{
+  width: 1%;
+  float: left;
+}
 .logo{
-  width: 90%;
+  width: 99%;
   float: right;
   font-size: 30px;
+  text-align: center;
   span{
     color: #ffc80a;
   }
@@ -38,6 +46,8 @@ header{
 .nav-tile{
   width: 50%;
   margin: auto;
+  height: 900px;
+
   div{
     height: 400px;
     &:first-child{
@@ -45,7 +55,15 @@ header{
       padding-right: 0;
       .content-nav{
         background-color: #9076c0;
+        background-image: url("../src/img/icon1.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        .text-nav{
+          line-height: 700px;
+          color: #ffffff;
+        }
       }
+
     }
     &:nth-child(2){
       padding-top: 80px;
@@ -54,12 +72,26 @@ header{
       overflow: hidden;
       .content-nav{
         background-color: #ffc80a;
+        background-image: url("../src/img/icon2.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        .text-nav{
+          line-height: 100px;
+          color: #2c2c2c;
+        }
       }
     }
     &:nth-child(3){
       padding: 0;
       .content-nav{
         background-color: #ededed;
+        background-image: url("../src/img/icon4.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        .text-nav{
+          line-height: 700px;
+          color: #2c2c2c;
+        }
       }
     }
     &:nth-child(4){
@@ -67,8 +99,20 @@ header{
       padding-right: 80px;
       .content-nav {
         background-color: #f9593a;
+        background-image: url("../src/img/icon3.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        .text-nav{
+          line-height: 700px;
+          color: #ffffff;
+        }
       }
     }
   }
 
+}
+
+footer{
+  background-color:#2c2c2c ;
+  height: 80px;
 }
