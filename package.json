@@ -1,0 +1,27 @@
+{
+  "name": "andres-vasquez.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andres-vasquez/andres-vasquez.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andres-vasquez/andres-vasquez.github.io/issues"
+  },
+  "homepage": "https://github.com/andres-vasquez/andres-vasquez.github.io#readme",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.2.0",
+    "gulp-sass": "^3.1.0",
+    "wiredep": "^4.0.0"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "andres-vasquez.github.io",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "andrea2711 <andrea.delgado2711@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/andres-vasquez/andres-vasquez.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
+  }
+}
