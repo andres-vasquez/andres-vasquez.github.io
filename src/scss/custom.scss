@@ -116,3 +116,28 @@ footer{
   background-color:#2c2c2c ;
   height: 80px;
 }
+.container-box{
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  transition: all 0.5s ease-in-out;
+  .arrow{
+    font-size: 80px;
+  }
+  .box{
+    position: absolute;
+    top: 200px;
+    font-size: 100px;
+   // background-color: #ffffff;
+  }
+  &:hover{
+    .arrow{
+      transform:translateY(180px);
+      transition: all 0.5s ease-in-out;
+    }
+    .icon-folder-empty:before{
+      content: '\f115';
+      transition: all 0.5s ease-in-out;
+    }
+  }
+}
